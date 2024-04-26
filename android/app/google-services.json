@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401703822853",
+    "project_id": "webrtc-86dac",
+    "storage_bucket": "webrtc-86dac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401703822853:android:6ebdbbebe1b4fb88a7de6c",
+        "android_client_info": {
+          "package_name": "com.example.web_rct"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUdUL4JBKmSOVTKevm-8WoC85DrDAEc90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
