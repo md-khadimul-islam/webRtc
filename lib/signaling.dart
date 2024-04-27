@@ -151,11 +151,9 @@ class Signaling {
       log('Got offer $data');
       var offer = data['offer'];
       await peerConnection?.setRemoteDescription(
-        RTCSessionDescription(offer['sdp'], offer['type']),
-      );
+          RTCSessionDescription(offer['sdp'], offer['type']));
       var answer = await peerConnection!.createAnswer();
       log('Created Answer $answer');
-
       await peerConnection!.setLocalDescription(answer);
 
       Map<String, dynamic> roomWithAnswer = {
